@@ -1,19 +1,30 @@
-# Project Setup
+# Project Setup 
+
 # Step 1: Install dependencies using npm:
+
 
 # 
 #  i @reduxjs/toolkit react-router-dom appwrite @tinymce/tinymce-react html-react-parser react-hook-form
+
  # Step 2: Configure .env files for Vite:
 
+
  # Prefix .env files with "vite".
-# Access variables in your code using import.meta.env.VITE_VARIABLE_NAME.
+
+# Access variables in your code using 
+
+import.meta.env.VITE_VARIABLE_NAME.
 # Environment Variables
+
 # VITE_APP_API_KEY: Your Appwrite API key.
+
 # VITE_APP_ENV: Environment (e.g., development, production).
-Redux Setup
-Step 1: Create a store using configureStore from @reduxjs/toolkit.
-Step 2: Define reducers and middleware.
-Step 3: Use Provider from react-redux to provide the store to your app.
+
+# Redux Setup
+
+# (Step 1: Create a store using configureStore from @reduxjs/toolkit. Step 2: Define reducers and middleware.
+
+Step 3: Use Provider from react-redux to provide the store to your app.)
 React Router Setup
 Step 1: Define routes using BrowserRouter and Route from react-router-dom.
 Step 2: Add links using Link from react-router-dom.
